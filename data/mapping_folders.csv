@@ -1,0 +1,15 @@
+﻿sample_name,sample_folder,parent_folder
+S20-22364_N,N_901,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-22364_T,T_901,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-28259_N1,Normal_1120_1,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-28259_N2,Normal_1120_2,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-28259_T1,Tumor_1120_1,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-28259_T2,Tumor_1120_2,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-35825_NC,N_Cental_1215,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-35825_NN,N_Near_1215,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-35825_FN,N_Far_1215,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-35825_T,Tumor_1215,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20-35825_SV,SeminalVesicle_1215,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20_35422_FN,S20_35422_FN,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20_35422_NN,S20_35422_NN,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human
+S20_35422_T,S20_35422_T,/athena/marchionnilab/scratch/lab_data/sharedData/loda/human

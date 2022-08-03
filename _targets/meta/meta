@@ -1,0 +1,50 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+all_t|object|9fc85d0186e80148|||||||||||||||
+filtered_matrix_0a953d6a|branch||5a183e75afc2234a|e42f1a039a1123cc|55520485||t19207.6531902575s||0|file|local|vector|filtered_matrix||0.105||object dir_results not found
+filtered_matrix_0cf38342|branch|af93d7038ebc41cd|2e5548f502f4ce89|377c3f574f0130d8|-19570733|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20-22364_N/outs/filtered_feature_bc_matrix.h5|t19206.9846527778s|357787d88d21b380|10399980|file|local|vector|filtered_matrix||6520.653||
+filtered_matrix_52d951a2|branch||2e5548f502f4ce89|ce6c84d00da1985d|-440823385|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20-28259_N/outs/filtered_feature_bc_matrix.h5|t19207.0720372343s||0|file|local|vector|filtered_matrix||||_paths_ missing files athenamarchionnilabscratchclz4002barbieri_marciscanoscRNAdataalignment_resultsS2028259_Noutsfiltered_feature_bc_matrix.h5
+filtered_matrix_66510abf|branch||2e5548f502f4ce89|569a40210575dc63|-2027485998||t19205.8468870194s||0|file|local|vector|filtered_matrix||||_paths_ missing files athenamarchionnilabscratchclz4002barbieri_marciscanoscRNAdataalignment_resultsS2022364outsfiltered_feature_bc_matrix.h5
+filtered_matrix_8fbc14bc|branch|fa7af08fd7b7f005|2e5548f502f4ce89|f50e00b1e3193fc4|1631081307|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20-22364_T/outs/filtered_feature_bc_matrix.h5|t19207.066099537s|0fe7215f93905b43|2570468|file|local|vector|filtered_matrix||6984.004||
+filtered_matrix_b52360b4|branch||2e5548f502f4ce89|276c47e856be3b18|-2041922908|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20-22364_T/outs/filtered_feature_bc_matrix.h5|t19206.8093233235s||0|file|local|vector|filtered_matrix||||_paths_ missing files athenamarchionnilabscratchclz4002barbieri_marciscanoscRNAdataalignment_resultsS2022364_Toutsfiltered_feature_bc_matrix.h5
+folders_f1_checked|stem|4dd49f7b3187ea30|82bb98e7dc61eac2|7dc6f527e3ec85ea|-431916132||t19207.6462037037s|6efc4bfe9d27bd5a|46|rds|local|vector|||0.003||
+folders_first_batch_check|stem|da7a3dad7a31c553|1d6fe723aad53252|47d5837667d09808|-680121158||t19207.5937731481s|ac45463db19e2cbe|48|rds|local|vector|||0.002||
+hum_ref_h38|stem|9b8372db55543682|e8adb01588e29f3f|ade5f4bd2a64db8f|727665678||t19207.6516319444s|6935d04907feb3d2|146|rds|local|vector|||165.047||
+hum_ref_h38_tar|stem|0facd000cdb4601e|38adffe597626f7c|b45dcc5f838d856f|-1148754836|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/refdata-gex-GRCh38-and-mm10-2020-A.tar.gz|t19207.6496759259s|d2b457e11820b7f0|10522761233|file|local|vector|||128.927||
+path_sample_first_batch|stem|fe97ad936f7a66e9|0334f9138f158d58|af83776e31d07f79|1946984384||t19207.5937731481s|b87462683b64d887|223|rds|local|vector|||0||
+plan|function|6ad78433941e9f2a|||||||||||||||
+plan_1|function|216f77455e41c165|||||||||||||||
+prova|object|a0058fb9f8af086c|||||||||||||||
+resources_1|object|0f3f730b77751252|||||||||||||||
+sample_mapping_1|stem|714cb964a4adc756|7cf9b3772b9add81|448141dda4240238|1984737931||t19205.5902777778s|c17e80c208491e7f|363|rds|local|vector|||0.015||
+sample_mapping_1_file|stem|6d7a2f5a3bceb651|3edcb8b9e52508ce|c3b5fc02cdc369c1|845053612|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19205.5569791667s|5d08f0f3fc77e108|626|file|local|vector|||0.001||
+sample_mapping_11_samples|stem|714cb964a4adc756|b2ae30dcdb0a139a|616322cb63050971|1417625075||t19205.7512152778s|c17e80c208491e7f|363|rds|local|vector|||0.011||
+sample_mapping_11_samples_file|stem|6d7a2f5a3bceb651|3edcb8b9e52508ce|c3b5fc02cdc369c1|-1196260216|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19205.5569791667s|5d08f0f3fc77e108|626|file|local|vector|||1.013||
+sample_mapping_12_samples|stem|714cb964a4adc756|703ce15eaa9778d2|72fd8b20f3c36c3a|472121550||t19205.7554513889s|c17e80c208491e7f|363|rds|local|vector|||0.009||
+sample_mapping_12_samples_file|stem|6d7a2f5a3bceb651|3edcb8b9e52508ce|c3b5fc02cdc369c1|-1804418018|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19205.5569791667s|5d08f0f3fc77e108|626|file|local|vector|||1.012||
+sample_mapping_b1|stem|714cb964a4adc756|f00fd815ffc1c9b3|84bcd34f3b336db1|2120165233||t19205.718275463s|c17e80c208491e7f|363|rds|local|vector|||0.009||
+sample_mapping_b1_file|stem|6d7a2f5a3bceb651|3edcb8b9e52508ce|c3b5fc02cdc369c1|783910601|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19205.5569791667s|5d08f0f3fc77e108|626|file|local|vector|||0.914||
+sample_mapping_batch1|stem|714cb964a4adc756|378af4b416f98f4d|7f5de6d5dc03ed90|1371212278||t19205.7145486111s|c17e80c208491e7f|363|rds|local|vector|||0.008||
+sample_mapping_batch1_file|stem|6d7a2f5a3bceb651|3edcb8b9e52508ce|c3b5fc02cdc369c1|-1413660910|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19205.5569791667s|5d08f0f3fc77e108|626|file|local|vector|||1.081||
+sample_mapping_first|stem|714cb964a4adc756|24ac9c29a55c3b33|1c7af6c312e56575|776187504||t19205.7345138889s|c17e80c208491e7f|363|rds|local|vector|||0.009||
+sample_mapping_first_batch|stem|cacf1ac222be5c38|1120c80fe6ac7065|635b5482a944e5e0|-1721468243||t19207.5937615741s|af495a12e81ed9db|446|rds|local|vector|||0.011||
+sample_mapping_first_batch_file|stem|c9fa313e2e6c2fbe|3edcb8b9e52508ce|c3b5fc02cdc369c1|783142775|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19207.591724537s|efc41887cf3e9bfa|1262|file|local|vector|||0.687||
+sample_mapping_first_file|stem|6d7a2f5a3bceb651|3edcb8b9e52508ce|c3b5fc02cdc369c1|1364590389|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19205.5569791667s|5d08f0f3fc77e108|626|file|local|vector|||1.01||
+sample_mapping_first_samples|stem|714cb964a4adc756|66b47f4abc1d088b|30dc32f10f4315f3|-534353620||t19205.7371875s|c17e80c208491e7f|363|rds|local|vector|||0.009||
+sample_mapping_first_samples_file|stem|6d7a2f5a3bceb651|3edcb8b9e52508ce|c3b5fc02cdc369c1|-1265095240|/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/mapping_folders.csv|t19205.5569791667s|5d08f0f3fc77e108|626|file|local|vector|||1.013||
+sample_names_first_batch|stem|dfdfc832213613f5|1e459fcbabac8dbe|af83776e31d07f79|855732966||t19207.5937731481s|7dead8e41ac4f62d|130|rds|local|vector|||0.001||
+resources_align|object|f29343fee1f49e10|||||||||||||||
+plan_all|function|d744d72b5a094848|||||||||||||||
+check_if_exist|function|6feda973aa3033a6|||||||||||||||
+resources_all|object|d478187c0b230719|||||||||||||||
+untar_ref|function|9996bf8e9fd2794e|||||||||||||||
+download_ref|function|01433214cc5a84c3|||||||||||||||
+align_scrna|function|a70b88e32d4e7bd1|||||||||||||||
+plan_align|function|c14984ef366216b5|||||||||||||||
+resources_align|object|f29343fee1f49e10
+plan_all|function|d744d72b5a094848
+check_if_exist|function|6feda973aa3033a6
+resources_all|object|d478187c0b230719
+untar_ref|function|ad2f22f71ebbb902
+download_ref|function|7fd4dc6f2433badd
+align_scrna|function|a70b88e32d4e7bd1
+plan_align|function|c14984ef366216b5

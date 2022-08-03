@@ -1,0 +1,148 @@
+---
+title: "Exploration"
+author: "Claudio Zanettini|Marchionni Lab"
+date:  "`r Sys.Date()`"
+output: 
+    html_document:
+          toc: true
+          toc_depth: 3
+          df_print: kable
+          theme: paper
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.align = "center",
+                      fig.width = 15,
+                      fig.height = 14
+                      )
+```
+
+```{r}
+library(here)
+library(targets)
+library(tidyverse)
+library(janitor)
+theme_set(theme_bw())
+source(here("code", "targets_functions", "functions.R"))
+```
+
+```{r}
+tar_config_set(store = here("_targets"))
+```
+
+```{r}
+tar_load(clinical_gdc)
+tar_load(clinical_legacy)
+tar_load(clinical_recount)
+tar_load(biospecimen_gdc)
+tar_load(usa_partecipant_baseline)
+tar_load(all_clinical_vars)
+tar_load(ppcg_tcga_ids)
+
+unique(clinical_legacy$days_to_psa)
+
+dput(all_clinical_vars[2])
+
+lapply(all_clinical_vars, function(x) grep("gleason", x, value = TRUE))
+
+
+
+all_clinical_vars
+```
+
+```{r}
+ usa_sample_information %>% 
+  filter(sample_type == "malignant tissue (prostatectomy)")
+
+
+clinical_legacy[, c("gleason_pattern_primary", "gleason_pattern_secondary", "radical_prostatectomy_gleason_score_for_prostate_cancer")] %>% 
+  View()
+
+```
+```{r}
+
+tar_load(clinical_gdc)
+tar_load(clinical_legacy)
+tar_load(clinical_recount)
+
+tar_load(all_clinical_vars)
+```
+
+```{r}
+all_clinical_vars
+```
+
+
+```{r}
+clinical_legacy %>% 
+  select(contains("scan"))
+
+unique(clinical_legacy$bone_scan_result) 
+unique(clinical_legacy$ct_scan_ab_pelvis_results) 
+
+clinical_legacy %>% 
+  select(c("ppcg_donor_id", "bone_scan_result", "ct_scan_ab_pelvis_results")) %>% 
+  pivot_longer(c("bone_scan_result", "ct_scan_ab_pelvis_results"), names_to = "scan_type", values_to = "results") %>% 
+  mutate(scan_type =  if_else(scan_type == "bone", "SCINTIGRAPHY_bone", "CT_ab_pelvis")) %>% 
+  distinct(results)
+
+
+
+dput(unique(clinical_legacy$bone_scan_result)) 
+```
+
+
+```{r}
+dput(unique(clinical_legacy$ct_scan_ab_pelvis_results))
+
+
+create_scans(clinical_gdc, clinical_legacy)
+
+```
+
+
+scientigrafia e' ossea | e ct e' pelvic
+
+
+
+
+
+usa_sample_information
+
+
+
+
+```{r}
+library(readxl)
+dput(excel_sheets(here("data", "templates", "PPCG_Clin_Data_template.xlsx")))
+
+save(clinical_recount, file = here("data", "clinical_recount.RDA")) 
+
+```
+
+
+
+```{r}
+biospecimen_gdc$sample %>% 
+  mutate(days_to_collection = as.numeric(days_to_collection)) %>% 
+  View()
+```
+
+
+
+```{r}
+ymd(paste0(clinical_gdc$year_of_diagnosis, "-01-01"))
+```
+
+
+
+
+
+
+
+
+
+

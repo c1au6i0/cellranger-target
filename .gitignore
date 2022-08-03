@@ -1,0 +1,13 @@
+library/
+local/
+cellar/
+lock/
+python/
+staging/
+.future/
+.DS_Store
+._*
+*gz
+data/alignment_results/*
+data/reference/
+
