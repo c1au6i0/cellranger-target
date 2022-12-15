@@ -11,19 +11,43 @@ output: github_document
 <!-- badges: start -->
 <!-- badges: end -->
 
-Repo of Collaboration with
+Repo of Collaboration with Barbieri. The pipeline use `cellranger v7` to align the fastq.
+
 
 
 Project uses `{targets}`and `{renv}` and `{here}`. 
 
-`data\` : contains 
+**`data/`** 
+contains the reference and a user provided csv mapping that indicates the location of the samples, as well
+as the results of alignment.
 
-`code\` : functions called by `_targets.R` in `here::here("code", "targets_functions"))`
+- `mapping_folders.csv` and `mapping_folders_2.csv` are used in one of the targets to map folders containing fastqs
+  to specific sample names.
+- `batch_1_2_aggr.csv` is used by the target that runs `cellranger aggr`
+- `reference` and `refdata_*` contains the references used for alignment.
+- **`alignment_results/` **contains the outputs of cellranger alignment. Each folder is the alignment of one sample.
+  The samples are then aggregated together in the `alignment_results/batch_1_2` folder.
 
-`reports\`: output files
+**`code/`**
+functions called by `_targets.R` in `here::here("code", "targets_functions"))`
+
 
 # Howto
+ 
+The pipeline uses `{targets}` (https://books.ropensci.org/targets/) and is setup to run in parallel on SLURM (with `{future.batchtools}`).
 
+The files `batchtools.slurm.tmpl` and `.batchtools.conf.R` are configuration files used by the API `{future.batchtools}` to
+communicate with SLURM.
+Insert path to your home directory in `.batchtools.conf.R` and copy `batchtools.slurm.tmpl` to you home directory.
+
+Resources to deploy for each target are specified in the file `_targets_resources.conf.R` that is sourced in the
+main `_targets.R` file.
+
+Use `targets::tar_make_future(workers = 10)` from inside `srun` interactive session or run `sbatch start_targets.sh`
+to initiate the pipeline. The job `master` will control the execution of the other jobs.
+
+SLURM Logs are created in `log/` (be sure to have a folder with that name in the current directory).
+A reproducible R environment is maintained using `{renv}` 
 Initialize and install packages with:
 
 ```
