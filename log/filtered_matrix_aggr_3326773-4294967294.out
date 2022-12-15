@@ -1,0 +1,22 @@
+### [bt]: This is batchtools v0.9.15
+### [bt]: Starting calculation of 1 jobs
+### [bt]: Setting working directory to '/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA'
+Loading required package: targets
+### [bt]: Memory measurement disabled
+### [bt]: Starting job [batchtools job.id=1]
+### [bt]: Setting seed to 6588 ...
+cellranger cellranger-7.0.0
+Running cd /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results && cellranger aggr --id=bathc_1_2 --csv=/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/batch_1_2_aggr.csv --localcores=16 --localmem=32
+Martian Runtime - v4.0.8
+
+RuntimeError: pipestance 'bathc_1_2' already exists and is locked by another Martian instance. If you are sure no other Martian instance is running, delete the _lock file in /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/bathc_1_2 and start Martian again.
+
+2022-11-16 13:43:21 Shutting down.
+Saving pipestance info to "bathc_1_2/bathc_1_2.mri.tgz"
+For assistance, upload this file to 10x Genomics by running:
+
+cellranger upload <your_email> "bathc_1_2/bathc_1_2.mri.tgz"
+
+
+### [bt]: Job terminated successfully [batchtools job.id=1]
+### [bt]: Calculation finished!

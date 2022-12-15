@@ -1,0 +1,40 @@
+### [bt]: This is batchtools v0.9.15
+### [bt]: Starting calculation of 1 jobs
+### [bt]: Setting working directory to '/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA'
+Loading required package: targets
+### [bt]: Memory measurement disabled
+### [bt]: Starting job [batchtools job.id=1]
+### [bt]: Setting seed to 493 ...
+cellranger cellranger-7.0.0
+Martian Runtime - v4.0.8
+2022-12-14 14:32:16 [runtime] Reattaching in local mode.
+Serving UI at http://scu-node042:33231?auth=XJCBfLwbtMCggLF0M36unh5DPuFPudbZXEC0jPODoqU
+
+
+Outputs:
+- Run summary HTML:                         /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/web_summary.html
+- Run summary CSV:                          /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/metrics_summary.csv
+- BAM:                                      /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/possorted_genome_bam.bam
+- BAM BAI index:                            /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/possorted_genome_bam.bam.bai
+- BAM CSI index:                            null
+- Filtered feature-barcode matrices MEX:    /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/filtered_feature_bc_matrix
+- Filtered feature-barcode matrices HDF5:   /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/filtered_feature_bc_matrix.h5
+- Unfiltered feature-barcode matrices MEX:  /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/raw_feature_bc_matrix
+- Unfiltered feature-barcode matrices HDF5: /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/raw_feature_bc_matrix.h5
+- Secondary analysis output CSV:            /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/analysis
+- Per-molecule read information:            /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/molecule_info.h5
+- CRISPR-specific analysis:                 null
+- CSP-specific analysis:                    null
+- Loupe Browser file:                       /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/S20_27761_T/outs/cloupe.cloupe
+- Feature Reference:                        null
+- Target Panel File:                        null
+- Probe Set File:                           null
+
+Waiting 6 seconds for UI to do final refresh.
+Pipestance completed successfully!
+
+2022-12-14 14:32:27 Shutting down.
+Saving pipestance info to "S20_27761_T/S20_27761_T.mri.tgz"
+
+### [bt]: Job terminated successfully [batchtools job.id=1]
+### [bt]: Calculation finished!

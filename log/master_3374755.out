@@ -1,0 +1,127 @@
+Wed Dec 14 11:37:47 EST 2022
+
+R version 4.2.2 (2022-10-31) -- "Innocent and Trusting"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-conda-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+* Project '/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA' loaded. [renv 0.16.0]
+> targets::tar_make_future(workers = 5)
+here() starts at /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA
+✔ skip target sample_mapping_second_batch_file
+✔ skip target sample_mapping_second_batch
+✔ skip target hum_ref_h38_tar
+✔ skip target hum_ref_h38
+✔ skip target path_sample_second_batch
+✔ skip target sample_names_second_batch
+✔ skip branch filtered_matrix_2_32b4fdcf
+✔ skip branch filtered_matrix_2_b87a850f
+✔ skip pattern filtered_matrix_2
+✔ skip target sample_mapping_first_batch_file
+✔ skip target sample_mapping_first_batch
+✔ skip target path_sample_first_batch
+✔ skip target folders_f1_checked
+✔ skip target sample_names_first_batch
+✔ skip target folders_f2_checked
+• start branch filtered_matrix_0a953d6a
+• start branch filtered_matrix_8fbc14bc
+• start branch filtered_matrix_e4582cc1
+• start branch filtered_matrix_739d685e
+• start branch filtered_matrix_78e095c4
+• built branch filtered_matrix_e4582cc1 [0.302 seconds]
+• start branch filtered_matrix_c9a21d5e
+• built branch filtered_matrix_0a953d6a [0.163 seconds]
+• start branch filtered_matrix_1e5580d9
+• built branch filtered_matrix_8fbc14bc [0.1 seconds]
+• start branch filtered_matrix_8bfee75f
+• built branch filtered_matrix_739d685e [0.072 seconds]
+• start branch filtered_matrix_aae4a01f
+• built branch filtered_matrix_78e095c4 [0.065 seconds]
+• start branch filtered_matrix_8a9c895b
+• built branch filtered_matrix_c9a21d5e [0.089 seconds]
+• start branch filtered_matrix_bd995bd9
+• built branch filtered_matrix_1e5580d9 [0.071 seconds]
+• start branch filtered_matrix_f4798a44
+• built branch filtered_matrix_8bfee75f [0.05 seconds]
+• start branch filtered_matrix_2f5d3a5c
+• built branch filtered_matrix_aae4a01f [0.05 seconds]
+• start branch filtered_matrix_028c9e2c
+• built branch filtered_matrix_8a9c895b [0.074 seconds]
+• start branch filtered_matrix_0442bf38
+• built branch filtered_matrix_bd995bd9 [0.081 seconds]
+• start branch filtered_matrix_e5704764
+• built branch filtered_matrix_f4798a44 [0.077 seconds]
+• start branch filtered_matrix_f85c0bda
+• built branch filtered_matrix_2f5d3a5c [0.07 seconds]
+• start branch filtered_matrix_ebe3cc44
+• built branch filtered_matrix_028c9e2c [0.068 seconds]
+• start branch filtered_matrix_6dac5e71
+• built branch filtered_matrix_0442bf38 [0.051 seconds]
+• start branch filtered_matrix_735417ea
+• built branch filtered_matrix_e5704764 [0.075 seconds]
+• start branch filtered_matrix_65036539
+• built branch filtered_matrix_f85c0bda [0.08 seconds]
+• start branch filtered_matrix_bfc27ed5
+• built branch filtered_matrix_ebe3cc44 [0.075 seconds]
+• start branch filtered_matrix_78e29614
+• built branch filtered_matrix_6dac5e71 [0.073 seconds]
+• start branch filtered_matrix_df1314a8
+• built branch filtered_matrix_735417ea [0.037 seconds]
+• start branch filtered_matrix_ea4d441d
+• built branch filtered_matrix_65036539 [0.066 seconds]
+• start branch filtered_matrix_b751e3b3
+• built branch filtered_matrix_bfc27ed5 [0.08 seconds]
+• start branch filtered_matrix_5005b998
+• built branch filtered_matrix_78e29614 [0.083 seconds]
+• start branch filtered_matrix_f3d03b07
+• built branch filtered_matrix_df1314a8 [0.078 seconds]
+• start branch filtered_matrix_cc6328d7
+• built branch filtered_matrix_ea4d441d [0.087 seconds]
+• start branch filtered_matrix_374218ea
+• built branch filtered_matrix_b751e3b3 [0.037 seconds]
+• start branch filtered_matrix_0dc13622
+• built branch filtered_matrix_5005b998 [0.08 seconds]
+• start branch filtered_matrix_fcd9e45a
+• built branch filtered_matrix_f3d03b07 [0.071 seconds]
+• start branch filtered_matrix_73cfbdd4
+• built branch filtered_matrix_cc6328d7 [0.115 seconds]
+• start branch filtered_matrix_a92b1d68
+• built branch filtered_matrix_374218ea [0.077 seconds]
+• start branch filtered_matrix_d4e21843
+• built branch filtered_matrix_0dc13622 [0.094 seconds]
+• start branch filtered_matrix_a77e9d74
+• built branch filtered_matrix_fcd9e45a [0.062 seconds]
+• start branch filtered_matrix_3a063a7e
+• built branch filtered_matrix_73cfbdd4 [0.066 seconds]
+• start branch filtered_matrix_875c3095
+• built branch filtered_matrix_a92b1d68 [0.078 seconds]
+• built branch filtered_matrix_d4e21843 [0.036 seconds]
+• built branch filtered_matrix_a77e9d74 [0.047 seconds]
+• built branch filtered_matrix_3a063a7e [0.084 seconds]
+• built branch filtered_matrix_875c3095 [0.073 seconds]
+• built pattern filtered_matrix
+✔ skip target all_matrixes
+✔ skip target aggr_csv
+• start target filtered_matrix_aggr
+• record workspace filtered_matrix_aggr
+✖ error target filtered_matrix_aggr
+• end pipeline [1.881 hours]
+Error:
+! Error running targets::tar_make_future()
+  Target errors: targets::tar_meta(fields = error, complete_only = TRUE)
+  Tips: https://books.ropensci.org/targets/debugging.html
+  Last error: _paths_ missing files: /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA/data/alignment_results/batch_1_2/outs/filtered_feature_bc_matrix.h5
+Execution halted

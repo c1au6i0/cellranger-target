@@ -16,12 +16,13 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-Repo of Collaboration with
+Repo of Collaboration with Barbieri. The pipeline use `cellranger v7` to align the fastq.
+
 
 
 Project uses `{targets}`and `{renv}` and `{here}`. 
 
-`data\` : contains 
+`data\` : contains the refernece and a user provided csv mapping that indicates the location of the samples.
 
 `code\` : functions called by `_targets.R` in `here::here("code", "targets_functions"))`
 

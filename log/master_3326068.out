@@ -1,0 +1,80 @@
+Mon Nov 14 19:08:43 EST 2022
+
+R version 4.2.2 (2022-10-31) -- "Innocent and Trusting"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-conda-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+* Project '/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA' loaded. [renv 0.16.0]
+> targets::tar_make_future(workers = 5)
+here() starts at /athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA
+✔ skip target sample_mapping_second_batch_file
+✔ skip target sample_mapping_second_batch
+✔ skip target hum_ref_h38_tar
+✔ skip target hum_ref_h38
+✔ skip target path_sample_second_batch
+✔ skip target sample_names_second_batch
+✔ skip branch filtered_matrix_2_32b4fdcf
+✔ skip branch filtered_matrix_2_b87a850f
+✔ skip pattern filtered_matrix_2
+✔ skip target sample_mapping_first_batch_file
+✔ skip target sample_mapping_first_batch
+✔ skip target path_sample_first_batch
+✔ skip target folders_f1_checked
+✔ skip target sample_names_first_batch
+✔ skip target folders_f2_checked
+✔ skip branch filtered_matrix_0a953d6a
+✔ skip branch filtered_matrix_8fbc14bc
+✔ skip branch filtered_matrix_e4582cc1
+✔ skip branch filtered_matrix_739d685e
+✔ skip branch filtered_matrix_78e095c4
+✔ skip branch filtered_matrix_c9a21d5e
+✔ skip branch filtered_matrix_1e5580d9
+✔ skip branch filtered_matrix_8bfee75f
+✔ skip branch filtered_matrix_aae4a01f
+✔ skip branch filtered_matrix_8a9c895b
+✔ skip branch filtered_matrix_bd995bd9
+✔ skip branch filtered_matrix_f4798a44
+✔ skip branch filtered_matrix_2f5d3a5c
+✔ skip branch filtered_matrix_028c9e2c
+✔ skip branch filtered_matrix_0442bf38
+✔ skip branch filtered_matrix_e5704764
+✔ skip branch filtered_matrix_f85c0bda
+✔ skip branch filtered_matrix_ebe3cc44
+✔ skip branch filtered_matrix_6dac5e71
+✔ skip branch filtered_matrix_735417ea
+✔ skip branch filtered_matrix_65036539
+✔ skip branch filtered_matrix_bfc27ed5
+✔ skip branch filtered_matrix_78e29614
+✔ skip branch filtered_matrix_df1314a8
+✔ skip branch filtered_matrix_ea4d441d
+✔ skip branch filtered_matrix_b751e3b3
+✔ skip branch filtered_matrix_5005b998
+✔ skip branch filtered_matrix_f3d03b07
+✔ skip branch filtered_matrix_cc6328d7
+✔ skip branch filtered_matrix_374218ea
+✔ skip branch filtered_matrix_0dc13622
+✔ skip branch filtered_matrix_fcd9e45a
+✔ skip branch filtered_matrix_73cfbdd4
+✔ skip branch filtered_matrix_a92b1d68
+✔ skip branch filtered_matrix_d4e21843
+✔ skip branch filtered_matrix_a77e9d74
+✔ skip branch filtered_matrix_3a063a7e
+✔ skip branch filtered_matrix_875c3095
+✔ skip pattern filtered_matrix
+✔ skip pipeline [1.917 seconds]
+> 
+> 

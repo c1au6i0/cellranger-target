@@ -73,6 +73,8 @@ tar_load(all_clinical_vars)
 
 ```{r}
 all_clinical_vars
+
+write.csv(sample_names_first_batch, "data/mapping_folders.csv", row.names = F)
 ```
 
 

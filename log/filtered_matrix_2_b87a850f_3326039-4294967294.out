@@ -1,0 +1,21 @@
+### [bt]: This is batchtools v0.9.15
+### [bt]: Starting calculation of 1 jobs
+### [bt]: Setting working directory to '/athena/marchionnilab/scratch/clz4002/barbieri_marciscano/scRNA'
+Loading required package: targets
+### [bt]: Memory measurement disabled
+### [bt]: Starting job [batchtools job.id=1]
+### [bt]: Setting seed to 24317 ...
+cellranger cellranger-7.0.0
+Martian Runtime - v4.0.8
+
+RuntimeError: pipestance 'S20_15748_N' already exists with different invocation file __S20_15748_N.mro
+
+2022-11-14 14:57:50 Shutting down.
+Saving pipestance info to "S20_15748_N/S20_15748_N.mri.tgz"
+For assistance, upload this file to 10x Genomics by running:
+
+cellranger upload <your_email> "S20_15748_N/S20_15748_N.mri.tgz"
+
+
+### [bt]: Job terminated successfully [batchtools job.id=1]
+### [bt]: Calculation finished!

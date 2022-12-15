@@ -10,4 +10,4 @@ staging/
 *gz
 data/alignment_results/*
 data/reference/
-
+data/refdata*
